@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:background="@mipmap/sunset">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:textSize="25dp"
+        android:text="Welcome to the Shopping Store"/>
+
+    <Button
+        android:id="@+id/btnAddProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/Light_background"
+        android:padding="15dp"
+        android:textColor="@color/Purple"
+        android:textSize="18dp"
+        android:text="add products" />
+
+    <Button
+        android:id="@+id/btnAddCoupon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/Light_background"
+        android:padding="15dp"
+        android:textColor="@color/Purple"
+        android:textSize="18dp"
+        android:text="add coupons" />
+
+
+    <Button
+        android:id="@+id/btnListProducts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/Light_background"
+        android:padding="15dp"
+        android:textColor="@color/Green"
+        android:textSize="18dp"
+        android:text="list all products" />
+
+    <Button
+        android:id="@+id/btnListCoupons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/Light_background"
+        android:padding="15dp"
+        android:textColor="@color/Green"
+        android:textSize="18dp"
+        android:text="list all coupons" />
+
+    <Button
+        android:id="@+id/btnAppLargestDiscount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/Light_background"
+        android:padding="15dp"
+        android:textColor="@color/Blue"
+        android:textSize="18dp"
+        android:text="Shoppinglist Largest discount" />
+
+    <Button
+        android:id="@+id/btnBestDisList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/Light_background"
+        android:padding="15dp"
+        android:textColor="@color/Blue"
+        android:textSize="18dp"
+        android:text="final price" />
+
+
+</LinearLayout>

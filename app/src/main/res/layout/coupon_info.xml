@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/flower_background">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="couple infomation"
+        android:textColor="@color/Light_blue"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:id="@+id/Linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/textView2">
+
+        <TextView
+            android:id="@+id/lblName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Discount"
+            android:textColor="@color/Green"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/txtDiscount_view"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/Green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Linear"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp">
+
+    <LinearLayout
+        android:id="@+id/linProductList_AddCoupon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+    </ScrollView>
+
+
+
+    <Button
+        android:id="@+id/btnBack_ViewCoupon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="return"
+        android:background="@color/Light_blue"
+        android:padding="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+<!--<LinearLayout-->
+<!--android:layout_width="fill_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:paddingBottom="5dp"-->
+<!--android:paddingTop="5dp">-->
+
+<!--<TextView-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="#BBFFFF"-->
+    <!--android:paddingLeft="5dp"-->
+    <!--android:text="Title" />-->
+
+<!--<TextView-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="#BBFFFF"-->
+    <!--android:text="ISBN " />-->
+
+<!--<TextView-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:background="#BBFFFF"-->
+    <!--android:text="Price" />-->
+<!--</LinearLayout>-->
